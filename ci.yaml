@@ -1,0 +1,13 @@
+name: Basic Workflow
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "Testing"
+
+      - name: Message
+        run: echo "Welcome!"
