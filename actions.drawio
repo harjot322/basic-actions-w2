@@ -4,51 +4,51 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7k-DrYNfWgJGYKA6FUs-1" target="b7k-DrYNfWgJGYKA6FUs-3">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7k-DrYNfWgJGYKA6FUs-1" target="b7k-DrYNfWgJGYKA6FUs-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="310" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7k-DrYNfWgJGYKA6FUs-1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7k-DrYNfWgJGYKA6FUs-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="520" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-1" value=".github/workflows/" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-1" value=".github/workflows/" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7k-DrYNfWgJGYKA6FUs-3">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7k-DrYNfWgJGYKA6FUs-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-3" value="ci.yaml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-3" value="ci.yaml" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-5" value="pr.yaml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-5" value="pr.yaml" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7k-DrYNfWgJGYKA6FUs-8" target="b7k-DrYNfWgJGYKA6FUs-10">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7k-DrYNfWgJGYKA6FUs-8" target="b7k-DrYNfWgJGYKA6FUs-10" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-8" value="name:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-8" value="name:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7k-DrYNfWgJGYKA6FUs-10" target="b7k-DrYNfWgJGYKA6FUs-11">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7k-DrYNfWgJGYKA6FUs-10" target="b7k-DrYNfWgJGYKA6FUs-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-10" value="on: [push, merge etc]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-10" value="on: [push, merge etc]" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="90" y="540" as="targetPoint" />
             <mxPoint x="140" y="470" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="299.5" y="540" as="targetPoint" />
             <mxPoint x="249.5" y="460" as="sourcePoint" />
@@ -59,27 +59,27 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-11" value="jobs:" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-11" value="jobs:" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7k-DrYNfWgJGYKA6FUs-15">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7k-DrYNfWgJGYKA6FUs-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-15" value="build:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-15" value="build:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b7k-DrYNfWgJGYKA6FUs-17">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b7k-DrYNfWgJGYKA6FUs-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-17" value="deploy:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-17" value="deploy:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="b7k-DrYNfWgJGYKA6FUs-21" value="runs-on: fedora/ubuntu-latest etc&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;steps:&lt;/div&gt;&lt;div&gt;-name:&amp;nbsp;&lt;/div&gt;&lt;div&gt;shell:&amp;nbsp;&lt;/div&gt;&lt;div&gt;runs: |&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="670" width="320" height="150" as="geometry" />
+        <mxCell id="b7k-DrYNfWgJGYKA6FUs-21" value="runs-on: fedora/ubuntu-latest etc&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;steps:&lt;/div&gt;&lt;div&gt;-name:&amp;nbsp;&lt;/div&gt;&lt;div&gt;shell:&amp;nbsp;&lt;/div&gt;&lt;div&gt;runs: |&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="630" width="320" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
