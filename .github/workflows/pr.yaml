@@ -1,0 +1,21 @@
+name: PR check 
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  check: 
+    runs-on: fedora
+    steps:
+      - name: Checkout code
+        shell: bash
+        run: |
+          echo 'Checkin code!'
+      - name: Run tests
+        shell: bash
+        run: |
+          echo 'Running SonarQube test'
+
+      
+          
