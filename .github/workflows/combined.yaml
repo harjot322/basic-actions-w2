@@ -1,0 +1,28 @@
+name: combined workflow
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '30 23 * * 1-5'
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3 # (checks out code on runner, so we can run it)
+
+      - name: print
+        shell: bash
+        run: |
+          echo 'This is a combined workflow!'
+      
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: nothing.txt
+          path: ./src/

@@ -7,6 +7,8 @@ jobs:
   build:
     runs-on: fedora
     steps: 
+      - name: Checkout code
+        uses: actions/checkout@v3
       - name: Testing
         shell: bash
         run: |
@@ -17,7 +19,10 @@ jobs:
           echo 'Hello, World!'
   deploy:
     runs-on: fedora
+    needs: build  # this will wait until build step is completed, if this is not mentioned then the jobs can run parallely
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
       - name: Deploy
         shell: bash
         run: |
