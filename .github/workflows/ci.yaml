@@ -13,4 +13,4 @@ jobs:
         run: echo "Welcome!"
       
       - name: Bye
-        run: echo 'Bye!'
+        run: echo 'Bye Bye!'
