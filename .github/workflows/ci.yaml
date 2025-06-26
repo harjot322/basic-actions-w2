@@ -11,3 +11,6 @@ jobs:
 
       - name: Message
         run: echo "Welcome!"
+      
+      - name: Bye
+        run: echo 'Bye!'
