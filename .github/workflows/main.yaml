@@ -1,0 +1,29 @@
+name: MyWorkflow
+
+on:  # trigger
+  push:
+    branches:
+      - main  # branch on which the trigger is applied
+    paths:
+      - 'src/**'
+      - 'tests/**' #Only changes to these files will trigger the workflow
+
+jobs:
+  build:
+    runs-on: fedora
+    steps: 
+      - name: Testing
+        shell: bash
+        run: |
+          echo 'testing new trigger'
+      - name: Greetings
+        shell: bash
+        run: |
+          echo 'Hello, World!'
+  deploy:
+    runs-on: fedora
+    steps:
+      - name: Deploy
+        shell: bash
+        run: |
+          echo 'I'm useless and I don't reploy anything'
