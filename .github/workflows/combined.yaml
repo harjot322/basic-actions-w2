@@ -12,6 +12,8 @@ on:
 jobs:
   print:
     runs-on: ubuntu-latest
+    env:
+      CLIENT_NAME: ${{ secrets.CLIENT_NAME}}
     steps:
       - name: Checkout code
         uses: actions/checkout@v3 # (checks out code on runner, so we can run it)
@@ -20,6 +22,11 @@ jobs:
         shell: bash
         run: |
           echo 'This is a combined workflow!'
+
+      - name: Work Experience
+        shell: bash
+        run: |
+          echo 'First company I have ever worked with is ${{ env.CLIENT_NAME }}'
       
       - name: Upload artifact
         uses: actions/upload-artifact@v4
