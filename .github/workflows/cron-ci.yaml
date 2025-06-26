@@ -1,0 +1,14 @@
+name: Cron type CI
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  cron:
+    runs-on: fedora
+    steps:
+      - name: Run cron job
+        shell: bash
+        run: |
+          echo 'Hello from Cron!'
+      

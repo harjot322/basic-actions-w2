@@ -1,6 +1,12 @@
 name: Basic Workflow
 
-on: [push]
+on: 
+  push:
+    branches:
+      - main  # branch on which the trigger is applied
+    paths:
+     - 'src/**'
+     - 'tests/**' #Only changes to these files will trigger the workflow
 
 jobs:
   build:
