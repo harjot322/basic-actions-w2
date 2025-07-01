@@ -9,6 +9,9 @@ jobs:
     runs-on: fedora
     steps:
       - name: Checkout code
+        uses: actions/checkout@v3 
+        
+      - name: Checkout code
         shell: bash
         run: |
           echo 'Checkin code!'
