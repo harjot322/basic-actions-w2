@@ -26,4 +26,5 @@ jobs:
       
       - name: Upload coverage report
         if: matrix.coverage == true
-        run: ./coverage-report/coverage-upload.sh
+        run: mkdir -p ./coverage-report/ && ./coverage-report/coverage-upload.sh
+           
