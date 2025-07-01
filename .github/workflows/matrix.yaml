@@ -1,0 +1,29 @@
+name: matrix-build
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        env: [prod, dev]
+        include:
+          - env: dev
+            coverage: true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: hello from envs
+        shell: bash
+        run: |
+          echo "Hello from ${{ matrix.env }}"
+      
+      - name: Upload coverage report
+        if: matrix.coverage == true
+        run: ./scripts/coverage-upload.sh
