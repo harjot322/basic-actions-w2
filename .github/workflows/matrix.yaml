@@ -26,4 +26,4 @@ jobs:
       
       - name: Upload coverage report
         if: matrix.coverage == true
-        run: ./scripts/coverage-upload.sh
+        run: ./coverage-report/coverage-upload.sh
