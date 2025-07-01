@@ -24,7 +24,5 @@ jobs:
         run: |
           echo "Hello from ${{ matrix.env }}"
       
-      - name: Upload coverage report
-        if: matrix.coverage == true
-        run: mkdir -p ./coverage-report/ && ./coverage-report/coverage-upload.sh
+
            
