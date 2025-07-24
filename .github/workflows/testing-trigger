@@ -1,0 +1,19 @@
+on:
+  workflow_dispatch:
+    inputs:
+      run_job_b:
+        description: 'Run Job B?'
+        required: true
+        default: 'false'
+
+jobs:
+  job_a:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running Job A"
+
+  job_b:
+    if: ${{ github.event.inputs.run_job_b == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running Job B"
